@@ -1,0 +1,77 @@
+body {
+  background: rgb(251, 255, 0);
+  color: #555;
+  font-family: monospace;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 1em;
+  padding: 0.4em 0;
+}
+
+input[type=checkbox] + label:before {
+  background: #555;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  margin-right: 8px;
+  position: relative;
+  top: 1px;
+  width: 16px;
+}
+
+input[type=checkbox]:checked + label:before {
+  background: #00ffaa;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  position: relative;
+}
+.container #logo {
+  margin: 199px;
+  margin-top: 627px;
+  padding-left: 0;
+}
+.container #crown {
+  margin: -317px;
+  margin-top: 4px;
+}
+.container #back {
+  margin: 36px;
+  margin-top: 366px;
+  padding-left: 185px;
+}
+.container #status {
+  margin: 120px;
+  margin-top: 250px;
+  padding-left: 0;
+}
+.container #front {
+  margin: 73px;
+  margin-top: 349px;
+  padding-right: 140px;
+}
+.container #left {
+  margin: -636px;
+  margin-top: -450px;
+  padding-left: 50px;
+}
+.container #right {
+  margin: -469px;
+  margin-top: -70px;
+  padding-left: 1022px;
+}/*# sourceMappingURL=styles.css.map */

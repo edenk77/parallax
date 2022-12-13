@@ -1,0 +1,45 @@
+{
+
+    "folders": [
+
+        {
+
+            "path": "."
+
+        }
+
+    ],
+
+    "settings": {
+
+       
+
+        "liveSassCompile.settings.includeItems": [
+
+            "/dist/scss/style.scss",
+
+            // "path/subpath/b.scss",
+        ],
+
+
+        "liveSassCompile.settings.formats": [
+
+            // This is the default.          
+
+            {
+
+                "format": "expanded",
+
+                "extensionName": ".min.css",
+
+                "savePath": "/dist/css"
+
+            }
+
+        ],
+
+        "liveServer.settings.port": 5502
+
+    }   
+
+}
